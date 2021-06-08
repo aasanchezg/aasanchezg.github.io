@@ -7370,6 +7370,10 @@ textarea.form-control-lg {
   color: #fff !important;
 }
 
+.text-white-xl {
+  color: #fff !important;
+  font-size: 2rem;
+}
 .text-body {
   color: #212529 !important;
 }
