@@ -52,6 +52,8 @@ window.addEventListener('DOMContentLoaded', event => {
     });
 
     // Activate SimpleLightbox plugin for portfolio items
-    $('.portfolio-box').simpleLightbox();
+    new SimpleLightbox({
+        elements: '.portfolio-box'
+    });
 
 });
