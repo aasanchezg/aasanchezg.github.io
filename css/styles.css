@@ -7296,7 +7296,7 @@ textarea.form-control-lg {
 }
 
 .text-justify {
-  text-align: justify;
+  text-align: justify !important;
 }
 
 .text-decoration-none {
