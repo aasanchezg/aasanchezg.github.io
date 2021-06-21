@@ -52,8 +52,10 @@ window.addEventListener('DOMContentLoaded', event => {
     });
 
     // Activate SimpleLightbox plugin for portfolio items
-    new SimpleLightbox({
+    var instance = new SimpleLightbox({
         elements: '.portfolio-box'
     });
+    
+    instance.setContent('<div class="contentInPopup"><h3 class="attireTitleType3">Custom content</h3>...');
 
 });
