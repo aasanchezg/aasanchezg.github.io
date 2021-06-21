@@ -283,8 +283,9 @@
                         '<div class="slbCaption">' + this.captions[position] + '</div>')
                     );
                 callback.call(self,$videoCont);
-
-            } else {
+                }                
+            } 
+            else {
 
                 var $imageCont = parseHtml(
                     '<div class="slbImageWrap"><img class="slbImage" src="' + url + '" /></div>'
