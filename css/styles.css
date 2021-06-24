@@ -11010,3 +11010,7 @@ header.masthead h1, header.masthead .h1 {
 .slbContentOuter {
     max-width: 70%;
 }
+
+.skills-section {
+    padding-bottom: 8rem 0;
+}
