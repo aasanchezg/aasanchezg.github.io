@@ -11009,8 +11009,26 @@ header.masthead h1, header.masthead .h1 {
 
 .slbContentOuter {
     max-width: 70%;
+    margin: 0 200px 0 auto;
 }
 
 .skills-section {
     padding-bottom: 8rem !important;
+}
+
+.slbDescription {
+    max-width: 100%;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    word-wrap: normal;
+    font-size: 1.4em;
+    position: absolute;
+    right: -13em;
+    top: 0;
+    bottom: 0;
+    padding: 26px .7142em;
+    color: #fff;
+    color: rgba(255,255,255,0.7);
+    text-align: center;
 }
