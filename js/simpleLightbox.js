@@ -280,7 +280,7 @@
                     '<div><div class="slbIframeCont"><iframe class="slbIframe" frameborder="0" allowfullscreen src="' + url + '" autoplay></iframe></div></div>')
                 if (this.options.showCaptions && this.captions[position]) {
                     $videoCont.appendChild(parseHtml(
-                        '<div class="slbCaption">' + this.captions[position] + '</div>')
+                        '<div class="slbDescription">' + this.captions[position] + '</div>')
                     );
                 callback.call(self,$videoCont);
                 }                
