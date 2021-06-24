@@ -11012,5 +11012,5 @@ header.masthead h1, header.masthead .h1 {
 }
 
 .skills-section {
-    padding-bottom: 8rem 0;
+    padding-bottom: 8rem !important;
 }
