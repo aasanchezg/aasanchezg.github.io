@@ -11022,17 +11022,25 @@ header.masthead h1, header.masthead .h1 {
 }
 
 .slbDescription {
-    max-width: 24%;    
+     
     /* overflow: hidden; */
     /* text-overflow: ellipsis; */
     /* white-space: nowrap; */
     /* word-wrap: normal; */
     position: absolute;
-    right: -24%;
-    top: 0;
+    right: 0%;
+    top: 100;
     bottom: 0;
     padding: 26px .7142em;
     color: #fff;
     color: rgba(255,255,255,0.7);
     text-align: center;
+}
+
+@media (min-width: 768px) {
+  .slbDescription {
+        max-width: 24%;   
+        right: -24%;
+        top: 0;
+    }
 }
