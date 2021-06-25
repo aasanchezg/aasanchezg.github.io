@@ -416,7 +416,7 @@
                 this.$currentImage.style.maxHeight = getWindowHeight() + 'px';
             }
             
-            var currentDescription = $imageCont.querySelector('.slbDescription');
+            var currentDescription = document.querySelector('.slbDescription');
             if (currentDescription) {
                currentDescription.style.maxHeight = getWindowHeight() + 'px';
             }
