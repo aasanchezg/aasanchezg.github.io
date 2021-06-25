@@ -11039,6 +11039,7 @@ header.masthead h1, header.masthead .h1 {
 
 @media (min-width: 768px) {
   .slbDescription {
+        overflow: auto;
         max-width: 24%;   
         right: -24%;
         top: 0;
