@@ -415,7 +415,12 @@
             if (this.$currentImage) {
                 this.$currentImage.style.maxHeight = getWindowHeight() + 'px';
             }
-
+            
+            var currentDescription = $imageCont.querySelector('.slbDescription');
+            if (currentDescription) {
+               currentDescription.style.maxHeight = getWindowHeight() + 'px';
+            }
+            
         },
 
         setupLightboxEvents: function() {
