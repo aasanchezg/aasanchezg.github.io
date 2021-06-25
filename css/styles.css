@@ -11017,14 +11017,14 @@ header.masthead h1, header.masthead .h1 {
 }
 
 .slbDescription {
-    max-width: 100%;
-    overflow: hidden;
-    text-overflow: ellipsis;
-    white-space: nowrap;
-    word-wrap: normal;
+    max-width: 24%;    
+    /* overflow: hidden; */
+    /* text-overflow: ellipsis; */
+    /* white-space: nowrap; */
+    /* word-wrap: normal; */
     font-size: 1.4em;
     position: absolute;
-    right: -13em;
+    right: -24%;
     top: 0;
     bottom: 0;
     padding: 26px .7142em;
