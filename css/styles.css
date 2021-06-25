@@ -11028,8 +11028,8 @@ header.masthead h1, header.masthead .h1 {
     /* white-space: nowrap; */
     /* word-wrap: normal; */
     position: absolute;
-    right: 0%;
-    top: 100;
+    right: 0;
+    top: 100%;
     bottom: 0;
     padding: 26px .7142em;
     color: #fff;
