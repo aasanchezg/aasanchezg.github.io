@@ -11009,7 +11009,12 @@ header.masthead h1, header.masthead .h1 {
 
 .slbContentOuter {
     max-width: 70%;
-    margin: 0 15em 0 auto;
+}
+
+@media (min-width: 768px) {
+  .slbContentOuter {
+      margin: 0 15em 0 auto;
+    }
 }
 
 .skills-section {
